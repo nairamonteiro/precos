@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preços</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - flaticon
+  -->
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+</head>
+
+<body id="top">
+
+    <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Preços</h2><br>
+
+          <div class="pricing-tab-container">
+
+            <ul class="tab-filter">
+
+              <li>
+                <button class="filter-btn active" data-filter-btn="all">
+                  <div class="btn-icon">
+                    <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Todos os preços</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="beauty-spa">
+                  <div class="btn-icon">
+                    <i class="flaticon-relax" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Spa</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="body-treatments">
+                  <div class="btn-icon">
+                    <i class="flaticon-massage" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Tratamento <br> corporal</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="face-washing">
+                  <div class="btn-icon">
+                    <i class="flaticon-spa" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Tratamento <br> facial</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="meditations">
+                  <div class="btn-icon">
+                    <i class="flaticon-yoga" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Meditação</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="shaving">
+                  <div class="btn-icon">
+                    <i class="flaticon-razor-blade" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Cabelo</p>
+                </button>
+              </li>
+
+            </ul>
+
+            <ul class="grid-list">
+
+              <li data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-1.jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte curto</h3>
+
+                    <p class="card-text">30-40 minutos</p>
+                  </div>
+
+                  <data class="card-price" value="89">R$35</data>
+
+                </div>
+              </li>
+
+              <li data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-2.jpg" width="90" height="90" alt="Shaving & Facial"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Barba e bigode</h3>
+
+                    <p class="card-text">30 minutos</p>
+                  </div>
+
+                  <data class="card-price" value="45">R$25</data>
+
+                </div>
+              </li>
+
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-3.jpg" width="90" height="90" alt="Hair Color & Wash"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Tintura</h3>
+
+                    <p class="card-text">30 minutos</p>
+                  </div>
+
+                  <data class="card-price" value="35">R$45</data>
+
+                </div>
+              </li>
+
+              <li data-filter="body-treatments">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-4.jpg" width="90" height="90" alt="Body Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Massagem e spa</h3>
+
+                    <p class="card-text">40-60 minutos</p>
+                  </div>
+
+                  <data class="card-price" value="56">R$56</data>
+
+                </div>
+              </li>
+
+              <li data-filter="beauty-spa">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-5.jpg" width="90" height="90" alt="Beauty & Spa"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Limpeza de pele</h3>
+
+                    <p class="card-text">1-2 horas</p>
+                  </div>
+
+                  <data class="card-price" value="27">R$130</data>
+
+                </div>
+              </li>
+
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-6.jpg" width="90" height="90" alt="Facial & Face Wash"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Tratamentos faciais</h3>
+
+                    <p class="card-text">45-60 minutos</p>
+                  </div>
+
+                  <data class="card-price" value="63">R$63</data>
+
+                </div>
+              </li>
+
+              <li data-filter="body-treatments">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-7.jpg" width="90" height="90" alt="Backbone Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Tratamento corporal</h3>
+
+                    <p class="card-text">40-50 minutos</p>
+                  </div>
+
+                  <data class="card-price" value="43">R$43</data>
+
+                </div>
+              </li>
+
+              <li data-filter="meditations">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-8.jpg" width="90" height="90" alt="Meditation & Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Drenagem facial</h3>
+
+                    <p class="card-text">20-30 minutos</p>
+                  </div>
+
+                  <data class="card-price" value="74">R$24</data>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+<!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
